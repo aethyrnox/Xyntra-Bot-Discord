@@ -34,9 +34,9 @@ const rest = new REST({ version: '10' }).setToken(process.env.BOT_TOKEN);
 
 (async () => {
   try {
-    console.log('LOGIN XYNTRA | Please wait. . .');
+    console.log('LOGIN XYNTRA | Please wait. . .');   // Ubah ini kalau mau ganti Console Log ///
     if (!process.env.CLIENT_ID || !process.env.GUILD_ID) {
-      throw new Error('Set environment variables CLIENT_ID and GUILD_ID untuk deploy commands ke guild.');
+      throw new Error('Set environment variables CLIENT_ID and GUILD_ID untuk deploy commands ke guild.'); // Ubah ini untuk mengganti message log ///
     }
     await rest.put(
       Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
