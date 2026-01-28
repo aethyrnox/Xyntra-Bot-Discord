@@ -1,0 +1,16 @@
+{
+  "name": "xyntra",
+  "version": "0.1",
+  "description": "A Simply bot discord manifest generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
