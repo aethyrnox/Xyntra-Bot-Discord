@@ -1,4 +1,9 @@
 # XYNTRA Discord bot
+
+<p align="center">
+  <img src="tb.png" alt="XYNTRA.CC" width="35%">
+</p>
+
 Simply Manilua Steam Gen <br>
 Please fork me! if u want to create
 
